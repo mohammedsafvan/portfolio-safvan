@@ -2,7 +2,7 @@ import React from "react";
 
 const TechStack = ({ url, imageUrl }) => {
   return (
-    <a href={url} target="_blank" rel="noreferrer">
+    <a href={url} target="_blank" rel="noopener noreferrer">
       <div className="w-2"></div>
       <img
         src={imageUrl}

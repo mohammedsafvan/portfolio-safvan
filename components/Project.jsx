@@ -3,7 +3,7 @@ import React from "react";
 const Project = ({ element }) => {
   return (
       <div className="max-w-sm rounded-3xl hover:scale-105 transform box-border dark:shadow-2xl dark:bg-gray-700  transition duration-500  shadow-xl p-4">
-        <a href={element.url} target="_blank">
+        <a href={element.url} target="_blank" rel="noopener noreferrer">
           <img
             className=" rounded-lg max-h-60"
             src="/todo_firebase.png"
