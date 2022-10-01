@@ -1,3 +1,10 @@
+import {
+  AiFillLinkedin,
+  AiFillGithub,
+  AiFillGoogleCircle,
+  AiFillMail,
+} from "react-icons/ai";
+
 export const techStacks = [
   {
     name: "Flutter",
@@ -30,6 +37,18 @@ export const techStacks = [
       "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg",
   },
   {
+    name: "NextJs",
+    url: "https://nextjs.org/docs",
+    imageUrl:
+      "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-dark.svg",
+  },
+  {
+    name: "Tailwind CSS",
+    url: "https://tailwindcss.com/",
+    imageUrl:
+      "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg",
+  },
+  {
     name: "NodeJS",
     url: "https://nodejs.org/en/",
     imageUrl:
@@ -39,7 +58,7 @@ export const techStacks = [
     name: "Express",
     url: "https://expressjs.com/",
     imageUrl:
-      "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg",
+      "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-dark.svg",
   },
   {
     name: "MySQL",
@@ -64,11 +83,34 @@ export const techStacks = [
 export const projects = [
   {
     name: "Todo Firebase",
-    stack: "Flutter, Firebase",
+    techStack: ["Flutter", "Firebase"],
     image: "../public/todo_firebase.png",
     description:
-      "A todo app with firebase cloud firestore and authentication(Phone, Google, Email) with persistant storage",
+      "A todo Android app with firebase cloud firestore and authentication(Phone No, Google, Email) with persistant storage",
     url: "https://github.com/mohammedsafvan/todo_firebase",
   },
-  { name: "", stack: "", description: "", url: "" },
+  
+];
+
+export const socials = [
+  {
+    name: "LinkedIn",
+    Icon: <AiFillLinkedin className="hover:scale-125 duration-500" />,
+    url: "https://www.linkedin.com/in/mohammed-safvan-7022b21a3/",
+  },
+  {
+    name: "Github",
+    Icon: <AiFillGithub className=" hover:scale-125 duration-500" />,
+    url: "https://github.com/mohammedsafvan",
+  },
+  {
+    name: "GoogleDev",
+    Icon: <AiFillGoogleCircle className="   duration-500 hover:scale-125" />,
+    url: "https://g.dev/mohammedsafvan",
+  },
+  {
+    name: "Mail",
+    Icon: <AiFillMail className="duration-500 hover:scale-125" />,
+    url: "mailto:mohammedsafvan.me@gmail.com",
+  },
 ];

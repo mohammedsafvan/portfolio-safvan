@@ -9,7 +9,7 @@ const TechStack = ({ url, imageUrl }) => {
         width="36"
         height="36"
         alt="Flutter"
-        className="w-10 md:w-14"
+        className="w-10 md:w-14 transform  transition duration-500 hover:scale-125"
       />
     </a>
   );
