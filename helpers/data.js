@@ -84,12 +84,18 @@ export const projects = [
   {
     name: "Todo Firebase",
     techStack: ["Flutter", "Firebase"],
-    image: "../public/todo_firebase.png",
+    image: "/todo_firebase.png",
     description:
       "A todo Android app with firebase cloud firestore and authentication(Phone No, Google, Email) with persistant storage",
     url: "https://github.com/mohammedsafvan/todo_firebase",
   },
-  
+  {
+    name: "Portfolio",
+    techStack: ["NextJs", "Tailwind CSS"],
+    image: "/portfolio.png",
+    description: "This website, which is made with NextJs and Tailwind CSS",
+    url: "https://github.com/mohammedsafvan/portfolio-safvan",
+  },
 ];
 
 export const socials = [

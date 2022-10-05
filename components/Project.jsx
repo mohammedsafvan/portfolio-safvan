@@ -6,9 +6,10 @@ const Project = ({ element }) => {
         <a href={element.url} target="_blank" rel="noopener noreferrer">
           <img
             className=" rounded-lg max-h-60"
-            src="/todo_firebase.png"
+            src={element.image}
             alt={element.name}
           />
+          
           <div className="px-2 py-2">
             <div className="font-bold text-xl dark:text-white  mb-2">{element.name}</div>
             <p className="text-mid dark:text-gray-400 text-justify text-sm leading-6">{element.description}</p>
