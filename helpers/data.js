@@ -90,7 +90,7 @@ export const projects = [
     url: "https://github.com/mohammedsafvan/todo_firebase",
   },
   {
-    name: "Note Takeing app",
+    name: "Note Taking app",
     techStack: ["React", "Markdown"],
     image: "https://raw.githubusercontent.com/mohammedsafvan/note-taking-app/main/note-app.png",
     description:

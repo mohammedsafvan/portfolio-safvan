@@ -1,6 +1,6 @@
 import React from "react";
 
-const TechStack = ({ url, imageUrl }) => {
+const TechStack = ({ url, imageUrl,name }) => {
   return (
     <a href={url} target="_blank" rel="noopener noreferrer">
       <div className="w-2"></div>
@@ -8,7 +8,7 @@ const TechStack = ({ url, imageUrl }) => {
         src={imageUrl}
         width="36"
         height="36"
-        alt="Flutter"
+        alt={name}
         className="w-10 md:w-14 transform  transition duration-500 hover:scale-125"
       />
     </a>

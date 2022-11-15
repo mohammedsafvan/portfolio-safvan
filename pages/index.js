@@ -48,10 +48,10 @@ export default function Home() {
                 />
               </li>
               <li>
-                <div className=" transform transition hover:scale-105 duration-500">
+                <div >
                   <a
                     href="#"
-                    className="bg-brand text-white px-4 py-2 rounded-md ml-8"
+                    className="bg-brand hover:bg-mid text-white px-4 py-2 rounded-md ml-8"
                   >
                     Resume
                   </a>
@@ -65,14 +65,17 @@ export default function Home() {
               Mohammed Safvan
             </h2>
             <h3 className="text-xl py-2 dark:text-white ">
-              Full stack Developer
+              Student | AI & ML Enthusiast | Full Stack Developer
             </h3>
             <p className=" text-md leading-8 px-2 text-mid">
-              An individual with passion for coding. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Iusto, dolor ipsum. Illo id
-              necessitatibus harum, eaque et veritatis ab. Sequi architecto
-              doloremque laborum neque dolores facilis ut molestias, eius
-              officia? <br /> ehem.... classic Stuff right!  :)
+              An individual with passion for coding. Currently pursuing
+              undergraduates in AI & ML from Sree Chitra Thirunal College of
+              Engineering.
+              <br /> I Like to work with new technologies. <br />
+              Interested in Artificial Intelligence and Machine Learning and
+              embracing myself more, on this.
+              <br />
+              Familiar with popular technologies of web, mobile and AI&ML
             </p>
           </div>
           <div className=" text-4xl flex justify-center gap-5 text-gray-600 ">
@@ -101,7 +104,7 @@ export default function Home() {
 
           <section>
             <h3 className=" text-2xl dark:text-white">Projects :</h3>
-            <div className="flex flex-row  p-5 gap-5 flex-wrap ">
+            <div className="flex flex-row  p-5 gap-5 flex-wrap justify-center">
               {projects.map((element, index) => (
                 <Project key={index} element={element} />
               ))}
