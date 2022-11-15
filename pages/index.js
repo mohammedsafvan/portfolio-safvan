@@ -8,7 +8,7 @@ import TechStack from "../components/TechStack";
 import Project from "../components/Project";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   return (
     <div className={darkMode ? "dark" : ""}>
