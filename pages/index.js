@@ -72,8 +72,7 @@ export default function Home() {
               undergraduates in AI & ML from Sree Chitra Thirunal College of
               Engineering.
               <br /> I Like to work with new technologies. <br />
-              Interested in Artificial Intelligence and Machine Learning and
-              embracing myself more, on this.
+              Interested in Artificial Intelligence and Machine Learning.
               <br />
               Familiar with popular technologies of web, mobile and AI&ML
             </p>
